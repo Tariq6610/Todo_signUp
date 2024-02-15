@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="row justify-content-center bg-primary vh-100">
+      <p class="text-center text-white my-4 mb-0 display-3">Sign Up</p>
+      <div
+        class="px-5 col-10 col-lg-8 col-xl-6 bg-light h-50 py-5 shadow-lg hero"
+      >
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input
+              type="email"
+              class="form-control form-control-lg border-dark"
+              id="signUpEmail"
+              aria-describedby="emailHelp"
+              required
+            />
+          </div>
+          <div class="form-group mt-4">
+            <label for="exampleInputPassword1">Password</label>
+            <input
+              type="password"
+              class="form-control form-control-lg border-dark"
+              id="signUpPassword"
+              required
+            />
+          </div>
+          <button type="submit" value="submit" onclick="signUp()"class=" btn btn-primary my-4"><a onclick="anchor()">Sign Up</a></button>
+        </form>
+      </div>
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="script.js">
+      </script>
+    </div>
+  </body>
+</html>

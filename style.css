@@ -1,0 +1,36 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ol{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logout{
+    position: relative;
+    float: right;
+    top: 10px;
+}
+
+.signup{
+    position: relative;
+    float: right;
+    right: 10px;
+    top: 10px;   
+}
+
+.signup:hover{
+    background-color: blue;
+    font-size: 1.1rem;
+}
+
+.signup-div{
+    height: 10px;
+}
+
+.btn:hover{
+    font-size: 1.1rem;
+}
+
