@@ -36,5 +36,5 @@ function welcome(){
 }
 
 function signUpbtn(){
-    location.href="./signUp.html";
+    location.href="./index.html";
 }
